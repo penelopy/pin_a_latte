@@ -1,0 +1,111 @@
+body {
+    background-color: #E9E9E9; 
+}
+
+.grid-container {
+    width: 100%;
+    max-width: 1250px;
+    padding-left: 12px;
+    padding-right: 6px;
+}
+
+/*-- clearfix hack -- */ 
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+     clear:both;
+}
+
+/*-- setting border box on all elements inside the grid --*/
+.grid-container *{
+    box-sizing: border-box; 
+}
+
+.start-images {
+    padding-top: 60px;
+}
+
+.col-5 {
+    float: left;
+    min-height: 1px; 
+    width: 20%; 
+    /*-- gutter --*/
+    padding-left: 12px;
+}
+.my-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -10px;
+}
+
+.p-textbox {
+    background-color: white;
+    padding: 0;
+    margin: 5px;
+}
+
+.my-card img {
+    height: 100%;
+}
+
+.my-card{
+    float: left;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333333;
+    box-shadow: 0 1px 2px #999999;
+    opacity: 1;
+    overflow: hidden;
+    padding-top: 0px;
+}
+
+.my-avatar {border: 2px solid transparent;}
+.my-avatar,.my-avatar img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 3px;
+    float: left;
+    -webkit-border-radius: 30px; /* Saf3+, Chrome */
+    border-radius: 30px; /* Opera 10.5, IE 9 */
+    /*-moz-border-radius: 30px;  Disabled for FF1+ */
+  }
+
+.p-board-category {
+    background-color: white;
+    padding-bottom: 5px;
+    margin-top: -10px;
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    line-height: 15px;
+    font-size: 10px;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.user-name {
+    line-height: 15px;
+    font-size: 10px;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.my-caption {
+    border-bottom: 1px solid #E0E0E0; 
+    margin-top: 15px; 
+    padding-left: 10px;
+    font-family: 'Helvetica Neue';
+    font-size: 13px;
+}
+

@@ -1,0 +1,174 @@
+/*--navbar css only--*/
+
+
+.header-container {
+    margin: auto;
+    width: 1225px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 5px;
+    /*padding-bottom: 5px;*/
+    background-color: #fff;
+    z-index: 100;
+
+    -webkit-box-shadow: 0px 2px 2px rgba(100, 100, 100, 0.19);
+    -moz-box-shadow:    0px 2px 2px rgba(100, 100, 100, 0.19);
+    box-shadow:         0px 2px 2px rgba(100, 100, 100, 0.19);
+}
+
+.my-body {
+    margin: 0px;
+}
+
+/*--start of search bar styling--*/
+.mag-button {
+    background-color: #cb2026;
+    margin: 0px;
+    padding-top: 7.5px;
+    border-radius: 0px;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.my-button{
+    float: left;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 0px;
+    height: 100%;
+    background-color: #fff;
+    border-right: solid #ccc 1px;
+    vertical-align: middle;
+}
+
+.fa-search {
+    color: white;
+    font-size: 16px;
+}
+
+.left-inner-div {
+    display: inline-block;
+    float: left;
+    background-color: #e9e9e9;
+    width: 80%;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.left-two {
+    display: inline-block;
+    float: left;
+    border: solid #ccc 1px;  
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    overflow: hidden;
+    width: 929px;
+}
+
+.pin-logo {
+    display: inline-block;
+    background-color: #fff;
+    width: 26px;
+    height: 30px;
+}
+
+.search-box {
+    display: inline-block;
+    padding-top: 7.5px;
+    padding-left: 7px;
+    color: #A9A9A9;
+    font-family: "Helvetica Neue";
+    font-weight: 600;
+}
+
+.fa-pinterest {
+    color: #cb2026;
+    background-color: #fff;
+}
+
+.search-icon {
+    display: inline-block;
+    width: 5%;
+    float: right;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 28px;
+    overflow: hidden;
+}
+/*--end search bar styling--*/
+
+/*--start of profile nav button styling--*/
+.right-stuff{
+    display: inline-block;
+    width: auto;
+    height: 34px;
+    margin-left: 10px;
+    border: solid #ccc 1px;
+    border-radius: 4px;
+    overflow: hidden;
+}    
+
+.right-box-1{
+    display: inline-block;
+    float: left;
+    width: 45px;
+}
+
+.nav-avatar img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 1.5px;
+    float: left;
+    -webkit-border-radius: 30px; /* Saf3+, Chrome */
+    border-radius: 30px; /* Opera 10.5, IE 9 */
+    /*-moz-border-radius: 30px;  Disabled for FF1+ */
+  }
+.right-box-2{
+    display: inline-block;
+    float: left;
+    width: 143px;
+    padding-top: 7.5px;
+    color: #818181;
+    font-family: "Helvetica Neue";
+    font-weight: 600;
+}
+
+.right-box-3 {
+    display: inline-block;
+    width: 40px;
+    padding-top: 2px;
+    padding-left: 1px;
+    text-align: center;
+    color: #cb2026;
+    font-size: 28px;
+    border-left: 1px #e9e9e9 solid;
+    height: 34px;
+}
+
+.num-notifications {
+    padding: 0;
+    top: 7px; bottom: 0; left: 0; right: 2px;
+    margin: auto;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+/*--end of profile nav bar--*/
